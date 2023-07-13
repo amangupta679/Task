@@ -1,3 +1,6 @@
 
-## 🚀 About Me  # Hi, I'm Aman! 👋
+## 🚀 About Me 
 I'm a Learning bot........
+
+ # Hi, I'm Aman! 👋
+ 
