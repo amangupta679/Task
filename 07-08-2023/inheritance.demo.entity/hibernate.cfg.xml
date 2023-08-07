@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.drivare_class">com.mysql.cj.jdbc.Driver</property>
+    <property name ="hibernate.connection.url">jdbc:mysql://localhost:3306/prolifics</property>
+    <property name="hibernate.connection.username">root</property>
+     <property name="hibernate.connection.password">Aman@1234</property>
+        <property name="hibernate.dialet">org.hibernate.showSql</property>
+           <property name="show_sql">true</property>
+           
+           
+        <!--   <mapping resource="Employee.hbm.xml" />-->  
+       <!--    <mapping class="com.lvg.hibernate.entity.employee"/>
+       <mapping class=" org.springframework.hibernateDemo.Address"/>
+       <mapping class="org.springframework.hibernateDemo.Department"/>
+        <mapping class="org.springframework.hibernateDemo.Employee"/>
+        <mapping class="org.springframework.hibernateDemo.Student"/>
+        <mapping class="org.springframework.hibernateDemo.Course"/> -->
+        <mapping class="inheritance.demo.entitty.Employee"/>
+        <mapping class="inheritance.demo.entitty.SalariedEmployee"/>
+        <mapping class="inheritance.demo.entitty.HourlyWagesEmployee"/>
+        
+  </session-factory>
+			
+			
+			
+</hibernate-configuration>
